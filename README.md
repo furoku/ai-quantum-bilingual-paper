@@ -8,7 +8,7 @@ Japanese title:
 
 **検証可能なAIイテレーションのための量子支援ハーネス：振幅増幅とアニーリングによる候補探索**
 
-The package is arXiv-ready, but this repository is the public release location. It includes the English manuscript, Japanese manuscript, reproducibility code, frozen numerical outputs, figures, and verification notes.
+This repository is the public release location. It includes the English manuscript, the reformatted Japanese manuscript, reproducibility code, frozen numerical outputs, figures, and verification notes.
 
 ## Language
 
@@ -17,12 +17,15 @@ The package is arXiv-ready, but this repository is the public release location. 
 
 ## Start here
 
-- English PDF: [`ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
-- Japanese PDF: [`ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.pdf`](ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.pdf)
-- Japanese DOCX: [`ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.docx`](ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.docx)
-- Reproducibility code and data: [`ai_quantum_bilingual_latest/shared/`](ai_quantum_bilingual_latest/shared/)
-- Package verification summary: [`ai_quantum_bilingual_latest/VERIFICATION_SUMMARY_LATEST.txt`](ai_quantum_bilingual_latest/VERIFICATION_SUMMARY_LATEST.txt)
-- Latest checked status: [`ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt`](ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt)
+- English PDF: [`ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
+- English source bundle: [`ai_quantum_bilingual_reformatted_latest/english/arxiv_source_upload_en_latest.zip`](ai_quantum_bilingual_reformatted_latest/english/arxiv_source_upload_en_latest.zip)
+- Extracted English source: [`ai_quantum_bilingual_reformatted_latest/english/arxiv_source/`](ai_quantum_bilingual_reformatted_latest/english/arxiv_source/)
+- Japanese reformatted PDF: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf)
+- Japanese reformatted DOCX: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.docx`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.docx)
+- Japanese reformatted Markdown: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.md`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.md)
+- Reproducibility code and data: [`ai_quantum_bilingual_reformatted_latest/shared/`](ai_quantum_bilingual_reformatted_latest/shared/)
+- Format rebuild notes: [`ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md`](ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md)
+- Japanese short summary: [`ai_quantum_bilingual_reformatted_latest/japanese/x_safe_summary_ja.txt`](ai_quantum_bilingual_reformatted_latest/japanese/x_safe_summary_ja.txt)
 
 ## Scope
 
@@ -36,4 +39,4 @@ Date: 2026-04-26
 
 ## License
 
-The reproducibility software in `ai_quantum_bilingual_latest/shared/` is provided under the MIT License in [`shared/LICENSE`](ai_quantum_bilingual_latest/shared/LICENSE). Manuscript and document reuse should follow the license terms stated by the author or repository owner.
+The repository includes the MIT License at [`LICENSE`](LICENSE). Manuscript and document reuse should follow the license terms stated by the author or repository owner.

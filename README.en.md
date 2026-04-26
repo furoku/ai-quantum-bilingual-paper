@@ -8,27 +8,28 @@ This repository publishes the bilingual package for the paper:
 
 The repository includes:
 
-- the English PDF and LaTeX source;
-- the Japanese PDF, DOCX, and Markdown version;
+- the English PDF and source bundle;
+- the reformatted Japanese PDF, DOCX, and Markdown version;
 - reproducibility code;
 - frozen numerical outputs used by the manuscript;
 - generated figures;
-- verification notes for the latest package.
+- format rebuild and verification notes for the latest package.
 
 ## Recommended reading order
 
-1. Read the English PDF: [`ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
-2. Check the key status file: [`ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt`](ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt)
-3. Inspect the reproducibility package: [`ai_quantum_bilingual_latest/shared/`](ai_quantum_bilingual_latest/shared/)
-4. Re-run the CPU simulation if needed.
+1. Read the English PDF: [`ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
+2. Read the reformatted Japanese PDF if needed: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf)
+3. Check the format rebuild notes: [`ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md`](ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md)
+4. Inspect the reproducibility package: [`ai_quantum_bilingual_reformatted_latest/shared/`](ai_quantum_bilingual_reformatted_latest/shared/)
+5. Re-run the CPU simulation if needed.
 
 ## Directory map
 
 ```text
-ai_quantum_bilingual_latest/
-  english/   English PDF, LaTeX source, BibTeX/BibTeX output, and arXiv source bundle
-  japanese/  Japanese PDF, DOCX, Markdown, and metadata
-  shared/    Python experiment code, frozen outputs, CSV files, figures, tests, and license
+ai_quantum_bilingual_reformatted_latest/
+  english/   English PDF, source bundle, and extracted source files
+  japanese/  Reformatted Japanese PDF, DOCX, Markdown, Japanese figures, and short summary
+  shared/    Python experiment code, frozen outputs, CSV files, and tests
 ```
 
 ## Reproducing the numerical outputs
@@ -43,7 +44,7 @@ Requirements:
 Run:
 
 ```bash
-cd ai_quantum_bilingual_latest/shared
+cd ai_quantum_bilingual_reformatted_latest/shared
 python3 quantum_agent_search_experiment.py --out results --test
 ```
 
@@ -54,7 +55,7 @@ Ran 4 tests
 OK
 ```
 
-The latest package notes state that the reproduced `results.json` matched the frozen `shared/results.json`.
+The latest package notes state that the experiment code was re-run successfully and the unit tests passed.
 
 ## Main numerical results
 

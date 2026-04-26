@@ -13,26 +13,27 @@
 含まれているものは次の通りです。
 
 - 英語版 PDF と LaTeX ソース
-- 日本語版 PDF、DOCX、Markdown
+- フォント・書式を再作成した日本語版 PDF、DOCX、Markdown
 - 再現用 Python コード
 - 論文で使った固定済み数値結果
 - 図表
-- 最新パッケージの検証メモ
+- 最新パッケージの書式再作成メモと検証メモ
 
 ## まず見るファイル
 
-1. 日本語 PDF: [`ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.pdf`](ai_quantum_bilingual_latest/japanese/quantum_assisted_ai_harness_ja_latest.pdf)
-2. 英語 PDF: [`ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
-3. 最新確認ステータス: [`ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt`](ai_quantum_bilingual_latest/CHECKED_STATUS_LATEST.txt)
-4. 再現用コードとデータ: [`ai_quantum_bilingual_latest/shared/`](ai_quantum_bilingual_latest/shared/)
+1. 日本語 PDF: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.pdf)
+2. 日本語 DOCX: [`ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.docx`](ai_quantum_bilingual_reformatted_latest/japanese/quantum_assisted_ai_harness_ja_reformatted.docx)
+3. 英語 PDF: [`ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf`](ai_quantum_bilingual_reformatted_latest/english/quantum_assisted_ai_harness_en_latest.pdf)
+4. 書式再作成メモ: [`ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md`](ai_quantum_bilingual_reformatted_latest/README_FORMAT_REBUILD.md)
+5. 再現用コードとデータ: [`ai_quantum_bilingual_reformatted_latest/shared/`](ai_quantum_bilingual_reformatted_latest/shared/)
 
 ## フォルダ構成
 
 ```text
-ai_quantum_bilingual_latest/
-  english/   英語版 PDF、LaTeX ソース、BibTeX 関連ファイル、arXiv 用ソース一式
-  japanese/  日本語版 PDF、DOCX、Markdown、メタデータ
-  shared/    実験コード、固定済み出力、CSV、図、テスト、ライセンス
+ai_quantum_bilingual_reformatted_latest/
+  english/   英語版 PDF、ソース一式 zip、展開済みソース
+  japanese/  書式再作成済みの日本語版 PDF、DOCX、Markdown、日本語図、短い要約
+  shared/    実験コード、固定済み出力、CSV、テスト
 ```
 
 ## 数値結果を再現する方法
@@ -47,7 +48,7 @@ ai_quantum_bilingual_latest/
 実行手順:
 
 ```bash
-cd ai_quantum_bilingual_latest/shared
+cd ai_quantum_bilingual_reformatted_latest/shared
 python3 quantum_agent_search_experiment.py --out results --test
 ```
 
@@ -58,7 +59,7 @@ Ran 4 tests
 OK
 ```
 
-同梱の検証メモでは、再実行した `results.json` が固定済みの `shared/results.json` と一致したと記録されています。
+同梱の書式再作成メモでは、実験コードの再実行成功、Unit tests 4/4 pass、Word から PDF への変換成功、全12ページの視覚確認済みと記録されています。
 
 ## 主な数値結果
 
