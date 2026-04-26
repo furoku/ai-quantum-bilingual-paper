@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{albash2018adiabatic}
+Tameem Albash and Daniel~A. Lidar.
+\newblock Adiabatic quantum computation.
+\newblock {\em Reviews of Modern Physics}, 90:015002, 2018.
+
+\bibitem{anthropicSkills}
+{Anthropic}.
+\newblock The complete guide to building skills for claude.
+\newblock Anthropic Resources, 2026.
+\newblock Accessed 2026-04-25.
+
+\bibitem{brassard2002amplitude}
+Gilles Brassard, Peter Hoyer, Michele Mosca, and Alain Tapp.
+\newblock Quantum amplitude amplification and estimation.
+\newblock {\em Contemporary Mathematics}, 305:53--74, 2002.
+
+\bibitem{dwaveDocsQubo}
+{D-Wave Systems}.
+\newblock Qubos and ising models.
+\newblock D-Wave Documentation, 2026.
+\newblock Accessed 2026-04-25.
+
+\bibitem{dwaveDocsAnnealing}
+{D-Wave Systems}.
+\newblock What is quantum annealing?
+\newblock D-Wave Documentation, 2026.
+\newblock Accessed 2026-04-25.
+
+\bibitem{deng2025swebenchpro}
+X.~Deng et~al.
+\newblock Swe-bench pro: Can ai agents solve long-horizon software engineering
+  tasks?, 2025.
+
+\bibitem{farhi2000adiabatic}
+Edward Farhi, Jeffrey Goldstone, Sam Gutmann, and Michael Sipser.
+\newblock Quantum computation by adiabatic evolution.
+\newblock {\em arXiv preprint quant-ph/0001106}, 2000.
+
+\bibitem{grover1996fast}
+Lov~K. Grover.
+\newblock A fast quantum mechanical algorithm for database search.
+\newblock In {\em Proceedings of the Twenty-Eighth Annual ACM Symposium on
+  Theory of Computing}, pages 212--219, 1996.
+
+\bibitem{ibmQuantumApplications}
+{IBM Quantum}.
+\newblock Which problems are quantum computers good for?
+\newblock IBM Quantum Learning, 2026.
+\newblock Accessed 2026-04-25.
+
+\bibitem{jimenez2023swebench}
+Carlos~E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir
+  Press, and Karthik Narasimhan.
+\newblock Swe-bench: Can language models resolve real-world github issues?,
+  2023.
+
+\bibitem{lucas2014ising}
+Andrew Lucas.
+\newblock Ising formulations of many np problems.
+\newblock {\em Frontiers in Physics}, 2:5, 2014.
+
+\bibitem{openaiSWEVerified}
+{OpenAI}.
+\newblock Introducing swe-bench verified, 2024.
+\newblock Accessed 2026-04-25.
+
+\bibitem{yoder2014fixed}
+Theodore~J. Yoder, Guang~Hao Low, and Isaac~L. Chuang.
+\newblock Fixed-point quantum search with an optimal number of queries.
+\newblock {\em Physical Review Letters}, 113:210501, 2014.
+
+\end{thebibliography}

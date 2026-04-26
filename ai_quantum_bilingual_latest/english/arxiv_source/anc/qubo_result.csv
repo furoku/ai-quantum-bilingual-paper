@@ -1,0 +1,2 @@
+n_bits,n_candidates,n_ground_states,random_success_fraction,random_expected_queries,simulated_annealing_runs,simulated_annealing_success_rate,simulated_annealing_mean_best_energy,simulated_annealing_median_steps_to_success
+18,262144,76,0.0002899169921875,3449.2631578947367,500,1.0,0.0,293.0

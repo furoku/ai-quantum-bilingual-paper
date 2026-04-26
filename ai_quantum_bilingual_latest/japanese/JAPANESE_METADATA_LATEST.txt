@@ -1,0 +1,20 @@
+Title Japanese:
+検証可能なAIイテレーションのための量子支援ハーネス：振幅増幅とアニーリングによる候補探索
+
+Title English:
+Quantum-Assisted Harnesses for Verifiable AI Iteration: Candidate Search via Amplitude Amplification and Annealing
+
+Author:
+Mojofull Furoku
+
+Affiliation:
+None listed / 所属なし
+
+Email:
+mojofull.furoku@gmail.com
+
+Date:
+2026-04-26
+
+Status:
+Japanese latest version synchronized with the English arXiv submission package, including author information, AI assistance disclosure, numerical results, source code, and references.
